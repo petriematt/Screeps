@@ -10,7 +10,7 @@ var manageCreepSpawn = {
     run: function(spawn){
         
     var desiredHarvesters = 1;
-    var desiredWorkers = 4;
+    var desiredWorkers = 6;
     var desiredEnergyTransferers = 2;
     var availEnergy = Game.spawns[spawn].room.energyAvailable;
     
