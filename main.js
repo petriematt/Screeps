@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var roommap = require('qRoomMap');
 var spawner = require('qSpawner');
 var harvester = require('qRole.Harvester');
@@ -33,3 +34,8 @@ module.exports.loop = function () {
         }
 }
    
+=======
+module.exports.loop = function () {
+    console.log('Loop');
+}
+>>>>>>> 500fb4a608eb46478cad32303ef1239b017f1cad
